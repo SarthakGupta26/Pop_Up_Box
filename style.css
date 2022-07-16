@@ -1,0 +1,44 @@
+#box{
+    background:linear-gradient(
+        135deg,
+        rgb(121, 115, 177),
+        rgb(131, 38, 192)
+    );
+    border-radius:10px;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body{
+ background-image:url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png);
+ background-size: cover;
+}
+
+#box.show{
+visibility: visible;
+animation: fade-out 1 forwards;
+}
+
+.clicks{
+    border-radius:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    background-color: rgb(126, 213, 216);
+}
+
+.cross {
+    text-align: end;
+}
+
+.cross span {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 24px;
+    font-size: 100%;
+    background-color: rgb(248, 246, 246);
+    border-radius: 50%;
+    align-content:right;
+}
